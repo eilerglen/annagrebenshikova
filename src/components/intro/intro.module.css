@@ -1,0 +1,37 @@
+.intro {
+  position: relative;
+  width: 100%;
+  height: calc(70vh - 60px);
+  background-color:bisque;
+  /* background-image: ; */
+}
+
+.prev {
+  position: absolute;
+  top: 200px;
+  left: 250px;
+  max-width: 200px;
+  
+
+}
+.title {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+
+}
+
+.subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+
+}
+
+.img {
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+

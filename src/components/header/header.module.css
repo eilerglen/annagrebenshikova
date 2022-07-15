@@ -1,0 +1,25 @@
+.header {
+  background-color: #F9F1F0;
+  display: flex;
+  
+}
+
+.wrapper {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+
+}
+
+.navlist {
+  display: flex;
+  list-style: none;
+}
+
+.logo {
+  width: 250px;
+  height: 50px;
+  background: #FFF;
+}
