@@ -1,9 +1,11 @@
 .link {
   display: flex;
-  line-height: 24px;
+  font-size: 14px;
+  line-height: 18px;
   text-decoration: none;
   color: #6f6f6f;
   margin-right: 50px;
+  text-transform: uppercase;
 }
 
 .text {

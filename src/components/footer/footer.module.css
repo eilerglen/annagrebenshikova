@@ -1,0 +1,23 @@
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #69585f;
+  color: azure;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 980px;
+  width: 100%;
+}
+
+.title {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+}

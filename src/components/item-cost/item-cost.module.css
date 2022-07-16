@@ -1,0 +1,40 @@
+.container {
+  box-sizing: border-box;
+  border-radius: 20px;
+  display: flex;
+  padding: 20px 36px 37px;
+  flex-direction: column;
+  align-items: center;
+  background: #F9F1F0;
+}
+.price {
+  color: #33302E;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+.description {
+  max-width: 250px;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
+
+}
+
+.span {
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+
+}
+
+
+

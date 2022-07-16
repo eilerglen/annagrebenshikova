@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+ align-items: center;
+
+}
+.description {
+  max-width: 250px;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: center;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+.img {
+  display: block;
+  object-fit: cover;
+ 
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 30px;
+
+}
