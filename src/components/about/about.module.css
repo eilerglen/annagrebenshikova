@@ -19,7 +19,7 @@
 
 .subtitle {
   margin: 0 0 30px;
-  width: 400px;
+  /* max-width: 400px; */
   text-align: start;
   font-weight: 400;
   font-size: 16px;
@@ -29,15 +29,16 @@
 }
 
 .grid {
-  max-width: 1180px;
+  max-width: 1100px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: minmax(288px, 460px) minmax(288px, 460px) ;
+  grid-template-columns: 1fr minmax(288px, 460px) ;
   grid-column-gap: 50px;
   padding-bottom: 50px;
  
   
 }
+
 .container {
   list-style: none;
   padding: 0;
@@ -61,10 +62,18 @@
   grid-row-end: span 4; */
   background-position: center center;
   background-size: cover;
-  /* width: 100%; */
+  width: 100%;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
+  .grid__image {
+   min-height: 300px;
+  }
+
+}
+
+
+@media screen and (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
   }

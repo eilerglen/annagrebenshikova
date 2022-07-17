@@ -1,5 +1,6 @@
 import styles from "./about.module.css";
 import anna from '../../images/anna.jpg'
+import { Link } from "react-router-dom";
 
 export const About = () => {
   return (
@@ -28,14 +29,13 @@ export const About = () => {
         </div>
       
         <div style = {{
-          backgroundImage: `url(${anna})`
-          
+          backgroundImage: `url(${anna})`       
           }}  className={styles.grid__image}>
-          
         </div>
       </article>
-      <div></div>
+        {/* <Link className = {styles.link} to = {'/about'}>
+          Узнать подробнее
+        </Link> */}
     </section>
   );
 };
-// style = {{background: `url(${anna})`}}

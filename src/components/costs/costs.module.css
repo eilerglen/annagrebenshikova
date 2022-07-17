@@ -11,6 +11,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 320px);
   grid-column-gap: 25px;
+  grid-row-gap: 25px;
 
 }
 
@@ -24,4 +25,12 @@
   letter-spacing: 0.1em;
   text-align: center;
 
+}
+
+
+@media screen and (max-width: 720px) {
+.container {
+    gap: 30px;
+    grid-template-columns: 1fr;
+  }
 }

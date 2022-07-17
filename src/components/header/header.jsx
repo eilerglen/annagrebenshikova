@@ -3,7 +3,6 @@ import styles from "./header.module.css";
 
 export const Header = () => {
 
-
   return (
     <header className={styles.header}>
       <div className={styles.wrapper}>
@@ -17,10 +16,14 @@ export const Header = () => {
               <NavLink text="С чем я работаю" />
             </li>
             <li>
-              <NavLink text="СТоимость услуг" />
+              <NavLink text="Стоимость услуг" />
             </li>
             <li>
               <NavLink text="Контакты" />
+            </li>
+
+            <li>
+              <NavLink text="Мой блог" />
             </li>
           </ul>
         </nav>

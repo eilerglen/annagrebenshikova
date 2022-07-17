@@ -8,6 +8,7 @@ import { Contacts } from "./components/contacts/contacts";
 import { Advantages } from "./components/advantages/advantages";
 import { Footer } from "./components/footer/footer";
 import {ScrolledButton} from '../src/components/UI/scrolledButton'
+import {Route, Routes} from 'react-router-dom'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Costs />
         <Contacts />
       </main>
+
       <Footer />
       <ScrolledButton />
     </>
