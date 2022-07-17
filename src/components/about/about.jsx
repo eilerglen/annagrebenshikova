@@ -10,12 +10,13 @@ export const About = () => {
         <h3 className={styles.subtitle}> Основные направления моей работы</h3>
         <ul className={styles.container}>
           <li>Российский университет Дружбы Народов</li>
-          <li>Служба помощи подросткам. Клинический психолог</li>
+          
           <li>Курсы повышения квалификации</li>
         </ul>
         <p className={styles.subtitle}> Образование</p>
         <ul className={styles.container}>
           <li>Российский университет Дружбы Народов</li>
+          <li>Московский психолого-педагогический Университет</li>
         </ul>
         <p className={styles.subtitle}> Повышение квалификации</p>
         <ul className={styles.container}>

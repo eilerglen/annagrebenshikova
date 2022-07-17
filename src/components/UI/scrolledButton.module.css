@@ -1,0 +1,16 @@
+.button {
+  position: fixed;
+  right: 2%;
+  bottom: 40px;
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  background-color: inherit;
+}
+
+button:hover {
+  color: var(--purple-primary)
+}

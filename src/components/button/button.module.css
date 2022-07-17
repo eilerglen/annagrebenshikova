@@ -1,10 +1,14 @@
 .button {
   font-size: 16px;
-  color: #fff;
+  /* color: #fff; */
   width: 200px;
   height: 50px;
   background-color: #EDB39B;
   border: none;
   border-radius: 25px;
   cursor: pointer;
+}
+
+.button:hover {
+ 
 }

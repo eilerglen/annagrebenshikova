@@ -2,6 +2,8 @@ import { NavLink } from "../navLink/navLink";
 import styles from "./header.module.css";
 
 export const Header = () => {
+
+
   return (
     <header className={styles.header}>
       <div className={styles.wrapper}>
@@ -15,7 +17,7 @@ export const Header = () => {
               <NavLink text="С чем я работаю" />
             </li>
             <li>
-              <NavLink text="Как я работаю" />
+              <NavLink text="СТоимость услуг" />
             </li>
             <li>
               <NavLink text="Контакты" />
