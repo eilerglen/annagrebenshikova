@@ -8,7 +8,7 @@
 }
 
 .wrapper {
-  width: 1140px;
+  width: 1280px;
   margin: auto;
   display: flex;
   align-items: center; 
@@ -19,6 +19,7 @@
 .navlist {
   display: flex;
   list-style: none;
+  max-width: 90px;
 }
 
 .logo {
@@ -26,3 +27,15 @@
   height: 50px;
   background: #FFF;
 }
+
+.link {
+  display: flex;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  color: #6f6f6f;
+  /* margin-right: 50px; */
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
