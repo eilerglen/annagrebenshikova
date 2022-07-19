@@ -1,12 +1,12 @@
 import styles from "./header.module.css";
 import { Link, animateScroll as scroll } from "react-scroll";
+import {Link as DS} from 'react-router-dom'
 export const Header = (props) => {
   return (
     <header className={styles.header}>
       <div className={styles.wrapper}>
         <div className={styles.logo}></div>
-        <nav>
-          
+        <nav> 
           <ul className={styles.navlist}>
             <li>
             <Link 
@@ -54,6 +54,26 @@ export const Header = (props) => {
                 duration={1000}
               > Контакты</Link>
             </li>
+
+            <li>
+            <Link
+               className={styles.link}
+                activeClass="active"
+                to="contacts"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              > Контакты</Link>
+            </li>
+            <li>
+            <DS
+               className = {styles.link} to = {'/blog'}>
+             Мой блог
+            </DS>
+            </li>
+
+
            
           </ul>
         </nav>

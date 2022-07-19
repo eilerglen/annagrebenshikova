@@ -8,8 +8,9 @@
 }
 
 .wrapper {
-  width: 1280px;
-  margin: auto;
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   align-items: center; 
   justify-content: space-between;
@@ -19,7 +20,21 @@
 .navlist {
   display: flex;
   list-style: none;
-  max-width: 90px;
+  
+}
+
+@media screen and (max-width: 850px) {
+  .navlist{
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  .navlist{
+    display: none;
+  }
+
 }
 
 .logo {
@@ -30,12 +45,15 @@
 
 .link {
   display: flex;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 18px;
   text-decoration: none;
   color: #6f6f6f;
-  /* margin-right: 50px; */
+  margin-right: 20px;
   text-transform: uppercase;
   cursor: pointer;
 }
 
+link:hover {
+  opacity: .7;
+}

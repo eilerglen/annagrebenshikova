@@ -14,6 +14,7 @@
   
 
 }
+
 .title {
   color: azure;
   max-width: 300px;
@@ -26,32 +27,11 @@
 }
 
 
-.img {
-  height: 40px;
-  width: 40px;
-  display: block;
-  height: 100%;
-  object-fit: cover;
-}
 
-.contactItem {
-  display: flex;
-  align-items: center;
-  max-width: 200px;
-  width: 100%;
-  margin-bottom: 30px;
+@media screen and (max-width: 768px) {
+  .prev {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-}
-
-.value {
-  margin-left: 20px;
-  color: azure;
-  font-size: 16px;
-  line-height: 20px;
-}
-
-.block {
-  display: flex;
-  justify-content: space-between;
-  max-width: 100px;
 }

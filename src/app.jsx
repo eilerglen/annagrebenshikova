@@ -10,6 +10,7 @@ import { Footer } from "./components/footer/footer";
 import { ScrolledButton } from "./components/UI/scrolledButton";
 import { HomePage } from "./pages/homePage";
 import { AboutPage } from "./pages/aboutPage";
+import { BlogPage } from "./pages/blog-page";
 import { Route, Routes } from "react-router-dom";
 import styles from "./app.module.css";
 
@@ -24,6 +25,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route exact path="about" element={<AboutPage/>} />
+      <Route exact path="about" element={<BlogPage/>} />
     </Routes>
 
     /* <Header refContainer = {dataName}/>
