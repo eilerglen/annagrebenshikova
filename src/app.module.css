@@ -1,3 +1,14 @@
+.navlist {
+  display: flex;
+  list-style: none;
+}
+
+.logo {
+  width: 250px;
+  height: 50px;
+  background: #FFF;
+}
+
 .link {
   display: flex;
   font-size: 14px;
@@ -6,8 +17,6 @@
   color: #6f6f6f;
   margin-right: 50px;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
-.text {
-  
-}

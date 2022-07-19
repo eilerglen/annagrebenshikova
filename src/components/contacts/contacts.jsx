@@ -5,9 +5,9 @@ import whatsApp from "../../images/icons/whatsApp.svg";
 import telegram from "../../images/icons/telegram.svg";
 import { ContactItem } from "../contactItem/contactItem";
 
-export const Contacts = () => {
+export const Contacts = ({name}) => {
   return (
-    <section className={styles.intro} id="contacts">
+    <section className={styles.intro} name={name}>
       <div className={styles.prev}>
         <p className={styles.title}>
           {" "}

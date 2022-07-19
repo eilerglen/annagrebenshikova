@@ -2,9 +2,9 @@ import styles from "./about.module.css";
 import anna from '../../images/anna.jpg'
 import { Link } from "react-router-dom";
 
-export const About = () => {
+export const About = ({name}) => {
   return (
-    <section className={styles.section}>
+    <section className={styles.section} name={name} id={name}>
       <h2 className={styles.title}> Обо мне</h2>
       <article className={styles.grid}>
         <div className={styles.grid__container}>
@@ -33,9 +33,9 @@ export const About = () => {
           }}  className={styles.grid__image}>
         </div>
       </article>
-        {/* <Link className = {styles.link} to = {'/about'}>
+        <Link className = {styles.link} to = {'/about'}>
           Узнать подробнее
-        </Link> */}
+        </Link>
     </section>
   );
 };

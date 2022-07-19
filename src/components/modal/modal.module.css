@@ -12,10 +12,11 @@
   transform: translate(-50%, -50%);
   z-index: 20;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   flex-direction: column;
-  color: #fff;
+  color: #000;
+  padding-left: 30px;;
 }
 
 .heading {

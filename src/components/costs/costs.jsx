@@ -8,13 +8,13 @@ const desc = {
   three: "Абонемент на 5 посещений",
 };
 
-export const Costs = () => {
+export const Costs = ({name}) => {
 
 
   return (
  
     
-    <section className={styles.costs}>
+    <section className={styles.costs} name={name} id={name}>
       <h3 className={styles.title}> Стоимость услуг</h3>
       <ul className={styles.container}>
         <li>

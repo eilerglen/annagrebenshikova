@@ -1,30 +1,60 @@
-import { NavLink } from "../navLink/navLink";
 import styles from "./header.module.css";
-
-export const Header = () => {
-
+import { Link, animateScroll as scroll } from "react-scroll";
+export const Header = (props) => {
   return (
     <header className={styles.header}>
       <div className={styles.wrapper}>
         <div className={styles.logo}></div>
         <nav>
+          
           <ul className={styles.navlist}>
             <li>
-              <NavLink text="Обо мне" />
+            <Link 
+                className={styles.link}
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >Обо мне</Link>
             </li>
             <li>
-              <NavLink text="С чем я работаю" />
+            <Link
+               className={styles.link}
+                activeClass="active"
+                to=""
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >С чем я работаю</Link>
             </li>
             <li>
-              <NavLink text="Стоимость услуг" />
+            <Link
+               className={styles.link}
+                activeClass="active"
+                to={"costs"}
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              >Стоимость услуг</Link>
             </li>
-            <li>
-              <NavLink text="Контакты" />
-            </li>
+         
 
             <li>
-              <NavLink text="Мой блог" />
+            <Link
+               className={styles.link}
+                activeClass="active"
+                to="contacts"
+                spy={true}
+                smooth={true}
+                offset={0}
+                duration={1000}
+              > Контакты</Link>
             </li>
+           
           </ul>
         </nav>
       </div>
