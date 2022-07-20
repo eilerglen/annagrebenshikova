@@ -1,0 +1,43 @@
+
+.button {
+  /* position: fixed; */
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 35px;
+  /* left: 36px;
+  top: 36px; */
+  outline: 0;
+  border: none;
+  /* background: #000; */
+  z-index: 900;
+}
+
+.span {
+  position: absolute;
+  left: 0;
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: #EDB39B;
+
+}
+
+span {
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+
+}
+
+span:nth-of-type(1) {
+  width: 30px;
+  top: 20%
+}
+span:nth-of-type(2) {
+  pointer-events: none;
+  top: 50%
+}
+span:nth-of-type(3) {
+  width: 30px;
+  top: 80%
+}
+

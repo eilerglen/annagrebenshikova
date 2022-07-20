@@ -4,6 +4,7 @@
   height: calc(70vh - 60px);
   background-color:bisque;
   /* background-image: ; */
+  z-index: 0;
 }
 
 .prev {

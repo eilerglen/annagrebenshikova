@@ -1,5 +1,11 @@
+import { SideMenu } from "../components/side-menu/side-menu"
+
 export const AboutPage = () => {
   return (
-    <div> About</div>
+    <>
+    <div> Blog </div>
+    <SideMenu/>
+    </>
+    
   )
 }

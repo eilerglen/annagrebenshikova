@@ -1,9 +1,26 @@
 import styles from "./header.module.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import {Link as DS} from 'react-router-dom'
-export const Header = (props) => {
+import { SideMenu } from "../side-menu/side-menu";
+import { MenuButton } from "../UI/hamburgerButton/hamburgerButton";
+import { useEffect, useState } from "react";
+
+export const Header = () => {
+
+   const [isActive, setIsActive] = useState(false)
+
+   const handleClick = () => {
+    setIsActive(!isActive)
+    console.log(isActive)
+   }
+
+   useEffect(() => {
+    console.log(isActive)
+   },[isActive])
+
   return (
     <header className={styles.header}>
+      <MenuButton onclick = {handleClick}/>
       <div className={styles.wrapper}>
         <div className={styles.logo}></div>
         <nav> 
@@ -78,6 +95,7 @@ export const Header = (props) => {
           </ul>
         </nav>
       </div>
+      <SideMenu isActive = {isActive}/>
     </header>
   );
 };
