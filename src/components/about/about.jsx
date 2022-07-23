@@ -34,7 +34,8 @@ export const About = ({name}) => {
         </div>
       </article>
         <Link className = {styles.link} to = {'/about'}>
-          Узнать подробнее
+          Узнать подробнее<code>&#8594;</code>
+          
         </Link>
     </section>
   );

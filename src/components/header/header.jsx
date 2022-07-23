@@ -73,17 +73,6 @@ export const Header = () => {
             </li>
 
             <li>
-            <Link
-               className={styles.link}
-                activeClass="active"
-                to="contacts"
-                spy={true}
-                smooth={true}
-                offset={0}
-                duration={1000}
-              > Контакты</Link>
-            </li>
-            <li>
             <DS
                className = {styles.link} to = {'/blog'}>
              Мой блог

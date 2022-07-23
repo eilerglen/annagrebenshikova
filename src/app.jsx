@@ -9,8 +9,8 @@ import { Advantages } from "./components/advantages/advantages";
 import { Footer } from "./components/footer/footer";
 import { ScrolledButton } from "./components/UI/scrolledButton";
 import { HomePage } from "./pages/homePage";
-import { AboutPage } from "./pages/aboutPage";
-import { BlogPage } from "./pages/blog-page";
+import { AboutPage } from "./pages/about-page/about-page";
+import { BlogPage } from "./pages/blog-page/blog-page";
 import { Route, Routes } from "react-router-dom";
 import styles from "./app.module.css";
 
@@ -25,21 +25,9 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage/>}/>
       <Route exact path="about" element={<AboutPage/>} />
-      <Route exact path="about" element={<BlogPage/>} />
+      <Route exact path="blog" element={<BlogPage/>} />
     </Routes>
 
-    /* <Header refContainer = {dataName}/>
-      <main>
-        <Intro />
-        <Services />
-        <About name={dataName.about}/>
-        <Advantages />
-        <Costs name={dataName.costs} />
-        <Contacts name={dataName.contacts} />
-      </main>
-
-      <Footer />
-      <ScrolledButton /> */
   );
 }
 
