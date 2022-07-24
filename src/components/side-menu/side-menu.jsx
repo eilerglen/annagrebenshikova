@@ -1,15 +1,23 @@
 import styles from "./side-menu.module.css";
 import { Link } from "react-scroll";
 import {Link as DS} from 'react-router-dom'
-
+// style ={{transform:`translate${0}px`}}
 
 export const SideMenu = (props) => {
   const {isActive} = props
+  const x = 100;
+  const y = 100;
+  const styleTr = isActive ? { 
+    transform: 'translate(0) + px '
+  } : ''
+
+  
    return (
-    
-    <nav> 
+    <nav 
+       style={{styleTr}}
+       className={styles.main}> 
       <ul 
-      style ={{transform:`translate${0}px`}}
+     
       className={styles.menu}
       >
         <li>

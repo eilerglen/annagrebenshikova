@@ -7,8 +7,9 @@ import { ContactItem } from "../contactItem/contactItem";
 
 export const Contacts = ({name}) => {
   return (
+ 
     <section className={styles.intro} name={name}>
-      <div className={styles.prev}>
+      <div className={styles.wrapper}>
         <p className={styles.title}>
           {" "}
           Запишитесь на консультацию или задайте вопрос

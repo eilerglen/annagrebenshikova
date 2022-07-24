@@ -4,7 +4,7 @@ export const Article = () => {
   return (
     <article>
       <h2 className={styles.title}> Я психолог</h2>
-      <blockquote className={styles.text}>
+      <div className={styles.text}>
         <p className={styles.paragraph}>
           Я решила, что я хочу стать психологом в 6 классе. Почему не знаю,
           просто в голове сформировалась эта мысль и все.{" "}
@@ -50,7 +50,8 @@ export const Article = () => {
         перспективе, но цель есть.
         </p>
        
-      </blockquote>
+      </div>
     </article>
   );
 };
+

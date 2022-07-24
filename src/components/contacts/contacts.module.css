@@ -1,16 +1,15 @@
 .intro {
+  margin: 0 auto;
   position: relative;
-  /* padding-left: 150px; */
-  padding-top: 40px;
-  width: 100%;
-  /* height: calc(40vh - 60px); */
+
   background: #33cccc;
 }
 
-.prev {
+.wrapper {
   margin: 0 auto;
-  max-width: 980px;
-  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 80%;
   
 
 }

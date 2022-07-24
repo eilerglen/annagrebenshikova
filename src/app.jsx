@@ -1,14 +1,5 @@
 import "./App.css";
-import { Header } from "./components/header/header";
-import { Intro } from "./components/intro/intro";
-import { Services } from "./components/services/services";
-import { Costs } from "./components/costs/costs";
-import { About } from "./components/about/about";
-import { Contacts } from "./components/contacts/contacts";
-import { Advantages } from "./components/advantages/advantages";
-import { Footer } from "./components/footer/footer";
-import { ScrolledButton } from "./components/UI/scrolledButton";
-import { HomePage } from "./pages/homePage";
+import { HomePage } from "./pages/home-page/home-page";
 import { AboutPage } from "./pages/about-page/about-page";
 import { BlogPage } from "./pages/blog-page/blog-page";
 import { Route, Routes } from "react-router-dom";

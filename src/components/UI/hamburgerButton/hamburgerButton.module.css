@@ -2,15 +2,16 @@
 .button {
   /* position: fixed; */
   position: relative;
-  display: block;
+  display: none;
   width: 40px;
-  height: 35px;
+  height: 30px;
   /* left: 36px;
   top: 36px; */
   outline: 0;
   border: none;
   /* background: #000; */
   z-index: 900;
+  background-color: inherit;
 }
 
 .span {
@@ -18,7 +19,7 @@
   left: 0;
   display: block;
   width: 30px;
-  height: 5px;
+  height: 3px;
   background-color: #EDB39B;
 
 }
@@ -41,3 +42,9 @@ span:nth-of-type(3) {
   top: 80%
 }
 
+@media screen and (max-width: 768px) {
+  .button{
+   display: block;
+  }
+
+}

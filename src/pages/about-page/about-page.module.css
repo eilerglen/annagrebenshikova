@@ -1,9 +1,9 @@
 
-.wrapper {
-
+.header {
+  background-color: #EDB39B;
 }
 .section {
-  max-width: 1280px;
+  max-width: 80%;
   width: 100%;
   margin: 0 auto;
 }
@@ -16,13 +16,14 @@
   border-radius: 10px;
 
 }
-.header {
- 
+.wraplink {
+  padding: 0;
+  width: 80%;
   padding-left: 30px;
-  margin: 0;
+  margin: 0 auto;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #EDB39B;
+  
   color: azure;
   
 }

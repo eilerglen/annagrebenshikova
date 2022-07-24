@@ -20,8 +20,9 @@ export const Header = () => {
 
   return (
     <header className={styles.header}>
-      <MenuButton onclick = {handleClick}/>
+     
       <div className={styles.wrapper}>
+      <MenuButton onclick = {handleClick}/>
         <div className={styles.logo}></div>
         <nav> 
           <ul className={styles.navlist}>

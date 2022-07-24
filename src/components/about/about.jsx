@@ -32,11 +32,12 @@ export const About = ({name}) => {
           backgroundImage: `url(${anna})`       
           }}  className={styles.grid__image}>
         </div>
-      </article>
         <Link className = {styles.link} to = {'/about'}>
           Узнать подробнее<code>&#8594;</code>
           
         </Link>
+      </article>
+       
     </section>
   );
 };

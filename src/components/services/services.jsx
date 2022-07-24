@@ -29,8 +29,6 @@ export const Services = () => {
           <Card title="Эмоциональные проблемы" src={emotion}></Card>
         </li>
       </ul>
-
-      <div>fdsfdsf</div>
     </section>
   );
 };
