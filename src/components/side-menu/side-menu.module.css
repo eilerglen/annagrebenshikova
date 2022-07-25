@@ -1,9 +1,8 @@
 .menu {
-  display: block;
-  list-style: none;
   position: absolute;
   top: 0px;
   left: 0px;
+  display: block;
   z-index: 293;
   width: 300px;
   max-width: 100%;
@@ -12,11 +11,14 @@
   padding-right: 0px;
   align-items: stretch;
   background-color: #F9F1F0;
-  transform: translateX(-100%);
+  /* transform: translateX(-100%); */
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 
 }
 
+.linkcontainer {
+  list-style: none;
+}
 .link {
   display: flex;
   font-size: 12px;

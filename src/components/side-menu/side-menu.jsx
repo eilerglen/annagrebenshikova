@@ -5,21 +5,12 @@ import {Link as DS} from 'react-router-dom'
 
 export const SideMenu = (props) => {
   const {isActive} = props
-  const x = 100;
-  const y = 100;
-  const styleTr = isActive ? { 
-    transform: 'translate(0) + px '
-  } : ''
 
-  
    return (
     <nav 
-       style={{styleTr}}
-       className={styles.main}> 
-      <ul 
-     
-      className={styles.menu}
-      >
+       style = {{transform: isActive ? "translateX(0)" : "translateX(-100%)"}}
+       className={ styles.menu }> 
+      <ul className={styles.linkcontainer}>
         <li>
           <Link
             className={styles.link}
