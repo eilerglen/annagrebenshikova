@@ -1,5 +1,4 @@
 .header {
-  margin: 0 auto;
   width: 100%;
   background-color: #F9F1F0;
   display: flex;
@@ -15,23 +14,25 @@
   display: flex;
   align-items: center; 
   justify-content: space-between;
+  padding: 0 20px 0;
 
 }
 
 .navlist {
   display: flex;
   list-style: none;
+  padding: 0;
   
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
   .navlist{
     flex-direction: column;
   }
 
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
   .navlist{
     display: none;
   }
@@ -42,8 +43,11 @@
 
 .logo {
   width: 250px;
-  height: 50px;
-  background: #FFF;
+  font-family: 'Merriweather Sans';
+  font-style: italic;
+  font-size: 16px;
+  text-decoration: solid;
+  letter-spacing: .1em;
 }
 
 .link {
@@ -61,9 +65,17 @@ link:hover {
   opacity: .7;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
   .wrapper {
     justify-content: center;
   }
 
 }
+
+@media screen and (max-width: 800px) {
+  .link {
+    margin-right: 10px;
+  }
+
+}
+

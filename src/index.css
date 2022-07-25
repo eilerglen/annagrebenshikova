@@ -12,8 +12,17 @@
   src: url("./fonts/PTSans-Bold.ttf") format("ttf");
 }
 
+@font-face {
+  font-family:'Merriweather Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: url("./fonts/MerriweatherSans-Italic.ttf") format("ttf");
+}
+
+
+
 body {
-  margin: 0;
+  margin: 0 auto;
   max-width: 2400px;
   min-width: 320px;
   width: 100%;

@@ -3,7 +3,7 @@
   box-sizing: border-box;
   box-shadow: 0px 24px 32px rgba(0, 0, 0, 0.04);  
   border-radius: 5px;
-  max-width: 620px;
+  max-width: 460px;
   width: 100%;
   min-height: 200px;
   position: fixed;
@@ -12,7 +12,7 @@
   transform: translate(-50%, -50%);
   z-index: 20;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   flex-direction: column;
   color: #000;
@@ -40,4 +40,8 @@
   background-position:  center;
   background-repeat: no-repeat;
   /* background-size: cover; */
+}
+
+.container {
+  max-width: 90%;
 }

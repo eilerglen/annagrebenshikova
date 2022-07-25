@@ -23,7 +23,7 @@ export const Header = () => {
      
       <div className={styles.wrapper}>
       <MenuButton onclick = {handleClick}/>
-        <div className={styles.logo}></div>
+        <p className={styles.logo}> Анна Гребенщикова</p>
         <nav> 
           <ul className={styles.navlist}>
             <li>
