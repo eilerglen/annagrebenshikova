@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/annagrebenshikova/static/css/main.798de0c9.css",
+    "main.js": "/annagrebenshikova/static/js/main.17ca718d.js",
+    "static/media/anna.jpg": "/annagrebenshikova/static/media/anna.8af509f137b51aa4c89f.jpg",
+    "static/media/PTSans-Bold.ttf": "/annagrebenshikova/static/media/PTSans-Bold.610bc32a7e32c292ce59.ttf",
+    "static/media/child.jpg": "/annagrebenshikova/static/media/child.6f452dc3f7521812a215.jpg",
+    "static/media/PTSans-Regular.ttf": "/annagrebenshikova/static/media/PTSans-Regular.77e92507394e2309d837.ttf",
+    "static/media/fon.jpg": "/annagrebenshikova/static/media/fon.745b7ab6409e0eae097e.jpg",
+    "static/media/MerriweatherSans-Italic.ttf": "/annagrebenshikova/static/media/MerriweatherSans-Italic.e65a14e3de75e638b7a2.ttf",
+    "static/media/family.jpg": "/annagrebenshikova/static/media/family.97377faabd5818e59390.jpg",
+    "static/media/emotion.jpg": "/annagrebenshikova/static/media/emotion.3102c550f7d0e5da5658.jpg",
+    "static/media/prof.jpg": "/annagrebenshikova/static/media/prof.9ecfb494ab9644ae04f1.jpg",
+    "static/media/whatsApp.svg": "/annagrebenshikova/static/media/whatsApp.7f9f50ce14a71dc212e1974717e1bb48.svg",
+    "static/media/email.svg": "/annagrebenshikova/static/media/email.d94ba34b0c4c4785e27918546a3847fc.svg",
+    "static/media/phone.svg": "/annagrebenshikova/static/media/phone.139981a215a0c86fb8c752601be53b87.svg",
+    "static/media/arrow_up.svg": "/annagrebenshikova/static/media/arrow_up.9581808dda96b56eca9d7879375be5a5.svg",
+    "index.html": "/annagrebenshikova/index.html",
+    "static/media/telegram.svg": "/annagrebenshikova/static/media/telegram.8fed08d878748b1c71c0beadd67143ec.svg",
+    "static/media/done_black.svg": "/annagrebenshikova/static/media/done_black.9ee766feb8500440591ace1a91eca95b.svg",
+    "main.798de0c9.css.map": "/annagrebenshikova/static/css/main.798de0c9.css.map",
+    "main.17ca718d.js.map": "/annagrebenshikova/static/js/main.17ca718d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.798de0c9.css",
+    "static/js/main.17ca718d.js"
+  ]
+}
