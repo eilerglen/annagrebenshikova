@@ -6,7 +6,7 @@
 
 .grid {
   margin: 0 auto;
-  max-width: 80%;
+  max-width: 60%;
 
   display: grid;
   grid-template-columns: 1fr minmax(288px, 460px) ;

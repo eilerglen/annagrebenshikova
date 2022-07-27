@@ -1,10 +1,11 @@
 import styles from "./side-menu.module.css";
 import { Link } from "react-scroll";
 import {Link as DS} from 'react-router-dom'
+import { CloseButton } from "../UI/button-close";
 // style ={{transform:`translate${0}px`}}
 
-export const SideMenu = (props) => {
-  const {isActive} = props
+export const SideMenu = ({isActive, onclick}) => {
+  // const {isActive} = props
 
    return (
     <nav 
@@ -65,27 +66,14 @@ export const SideMenu = (props) => {
             Контакты
           </Link>
         </li>
-
-        <li>
-          <Link
-            className={styles.link}
-            activeClass="active"
-            to="contacts"
-            spy={true}
-            smooth={true}
-            offset={0}
-            duration={1000}
-          >
-            {" "}
-            Контакты
-          </Link>
-        </li>
         <li>
           <DS className={styles.link} to={"/blog"}>
             Мой блог
           </DS>
         </li>
       </ul>
+      <CloseButton handleClick = {onclick}/>
     </nav>
+    
   )
 };

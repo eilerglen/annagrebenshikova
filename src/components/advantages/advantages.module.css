@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 .title {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   margin-bottom: 25px;
   text-transform: uppercase;
@@ -42,7 +42,6 @@
 
 .listitem {
   display: flex;
-  align-items: center;
  
 }
 
@@ -69,9 +68,9 @@ li {
 } */
 
 
-/* @media screen and (max-width: 768px) {
-  .subtitle {
-    font-size: 14px;
+@media screen and (max-width: 768px) {
+  .title {
+    max-width: 250px;
   }
 
-} */
+}

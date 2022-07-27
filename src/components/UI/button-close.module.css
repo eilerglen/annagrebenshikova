@@ -1,0 +1,20 @@
+.button {
+  /* position: fixed; */
+  position: absolute;
+  align-items: center;
+  width: 40px;
+  height: 44px;
+  right: 20px;
+  top: 2px;
+  cursor: pointer;
+  outline: 0;
+  border: none;
+  /* background: #000; */
+  z-index: 900;
+  background-color: inherit;
+}
+
+.img {
+  width: 20px;
+  height: 20px;
+}

@@ -79,3 +79,9 @@ link:hover {
 
 }
 
+@media screen and (max-width: 525px) {
+  .wrapper {
+    justify-content: flex-end;
+  }
+
+}
