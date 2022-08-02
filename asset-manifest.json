@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/annagrebenshikova/static/css/main.274e4b1f.css",
+    "main.css": "/annagrebenshikova/static/css/main.bcaa8964.css",
     "main.js": "/annagrebenshikova/static/js/main.6a6a0f05.js",
     "static/media/anna.jpg": "/annagrebenshikova/static/media/anna.8af509f137b51aa4c89f.jpg",
     "static/media/PTSans-Bold.ttf": "/annagrebenshikova/static/media/PTSans-Bold.610bc32a7e32c292ce59.ttf",
@@ -20,11 +20,11 @@
     "index.html": "/annagrebenshikova/index.html",
     "static/media/telegram.svg": "/annagrebenshikova/static/media/telegram.8fed08d878748b1c71c0beadd67143ec.svg",
     "static/media/done_black.svg": "/annagrebenshikova/static/media/done_black.9ee766feb8500440591ace1a91eca95b.svg",
-    "main.274e4b1f.css.map": "/annagrebenshikova/static/css/main.274e4b1f.css.map",
+    "main.bcaa8964.css.map": "/annagrebenshikova/static/css/main.bcaa8964.css.map",
     "main.6a6a0f05.js.map": "/annagrebenshikova/static/js/main.6a6a0f05.js.map"
   },
   "entrypoints": [
-    "static/css/main.274e4b1f.css",
+    "static/css/main.bcaa8964.css",
     "static/js/main.6a6a0f05.js"
   ]
 }
