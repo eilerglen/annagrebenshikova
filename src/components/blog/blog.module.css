@@ -8,7 +8,6 @@
 .container {
   display: flex;
   height: 500px;
-  max-height: calc(40vh- 150px);
 
 }
 
