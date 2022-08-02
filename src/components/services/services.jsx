@@ -17,13 +17,13 @@ export const Services = () => {
       </p>
       <ul className={styles.container}>
         <li>
-          <Card title="Семейные трудности" src={family}></Card>
+          <Card title="Личностные вопросы" src={family}></Card>
         </li>
         <li>
-          <Card title="Трудности с ребенком" src={child}></Card>
+          <Card title="Кризисные ситуации" src={child}></Card>
         </li>
         <li>
-          <Card title="Профессиональное самоопределение" src={profi}></Card>
+          <Card title="Работа с подростками" src={profi}></Card>
         </li>
         <li>
           <Card title="Эмоциональные проблемы" src={emotion}></Card>

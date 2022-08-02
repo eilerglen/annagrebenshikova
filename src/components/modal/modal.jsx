@@ -36,30 +36,29 @@ const Modal = ({ title, onClose }) => {
           onClick={onClose}
         ></span>
         <div className={modalStyles.container}>
-          <ContactItem
-            src={phone}
-            href="tel: +79160792172"
-            alt="Телефон"
-            value="+7-916-079-21-72"
-          />
-          <ContactItem
-            src={email}
-            href="mailto: annasmeet@mail.ru"
-            alt="Почта"
-            value="annasmeet@mail.ru"
-          />
-          <ContactItem
-            src={whatsApp}
-            href="https://wa.me/79160792172"
-            alt="WhatsApp"
-            value="Написать в WhatsApps"
-          />
-          <ContactItem
-            src={telegram}
-            href="https://wa.me/79160792172"
-            alt="Telegram"
-            value="Написать в Telegram"
-          />
+          <form action="" className={modalStyles.form}>
+            <p>Выберите тип обращения</p>
+            <select name="select_service">
+              <option value="1">Личностные проблемы</option>
+              <option value="2">Кризисные ситуации</option>
+              <option value="3">Работа с подростками</option>
+              
+            </select>
+            <p>Выберите дату и время</p>
+
+            <input
+              type="text"
+              className={modalStyles.input}
+              placeholder="Ваше имя"
+            />
+            <input
+              type="email"
+              className={modalStyles.input}
+              placeholder="Ваш e-mail"
+            />
+
+            <button className={modalStyles.button}>Отправить</button>
+          </form>
         </div>
       </div>
     </>,

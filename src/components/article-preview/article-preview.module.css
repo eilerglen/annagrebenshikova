@@ -1,0 +1,45 @@
+.wrapper {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 520px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap
+ 
+  
+}
+.title {
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: .1em;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.text {
+  display: -webkit-box;
+  -webkit-line-clamp: 8;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+  font-size: 14px;
+  max-width: 300px;
+  width: 100%;
+  ;
+}
+
+.avatar{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px green;
+}
+
+.link {
+  font-size: 14px;
+  text-decoration: none;
+  color: blue;
+
+}

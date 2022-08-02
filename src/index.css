@@ -22,10 +22,8 @@
 
 
 body {
-  margin: 0 auto;
   max-width: 2400px;
   min-width: 320px;
-  width: 100%;
   font-family: PTSans, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

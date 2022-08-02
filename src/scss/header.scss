@@ -1,0 +1,19 @@
+.header {
+  width: 100%;
+  background-color: #F9F1F0;
+  display: flex;
+  position: relative;
+
+  .wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    padding: 0 20px 0;
+  
+  }
+  
+
+}

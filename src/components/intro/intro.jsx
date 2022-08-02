@@ -1,5 +1,5 @@
 import styles from './intro.module.css'
-import background from "../../images/fon.jpg"
+import background from "../../images/tulpine.jpg"
 
 export const Intro = () => {
   return (

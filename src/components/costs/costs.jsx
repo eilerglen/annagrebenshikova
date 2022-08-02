@@ -21,9 +21,6 @@ export const Costs = ({name}) => {
          
           <CostItem price={4000} description={desc.two}></CostItem>
         </li>
-        <li>
-          <CostItem price={3700} description={desc.three}></CostItem>
-        </li>
       </ul>
      
     </section>

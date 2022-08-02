@@ -1,13 +1,16 @@
 .section {
   /* max-width: 880px; */
   padding-top: 70px;
-  background-color: #f2f2f2;
+  
 }
 
 .grid {
+  box-sizing: border-box;
+  border-radius: 20px;
+  padding: 20px;
   margin: 0 auto;
-  max-width: 60%;
-
+  max-width: 80%;
+  background-color: #fff;
   display: grid;
   grid-template-columns: 1fr minmax(288px, 460px) ;
   grid-column-gap: 50px;
@@ -34,8 +37,8 @@
   padding: 0;
   /* max-width: 400px; */
   text-align: start;
-  font-weight: 400;
   font-size: 16px;
+  font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 
@@ -48,7 +51,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   display: flex;
   justify-content: space-between;
 }
@@ -66,12 +69,13 @@
   background-position: center center;
   background-size: cover;
   width: 100%;
+  border-radius: 10px;
 }
 
 .link {
   color: #000;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.1em;
   margin-top: 20px;
 
@@ -87,6 +91,7 @@
 @media screen and (max-width: 768px) {
   .grid {
     grid-template-columns: 1fr;
+    max-width: 90%;
   }
 
 }

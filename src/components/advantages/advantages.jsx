@@ -12,10 +12,10 @@ export const Advantages = () => {
             Продолжительность консультации 60 минут
           </p>
         </li>
-        <li className={styles.listitem}>
+        {/* <li className={styles.listitem}>
           <img src={done} alt="" className={styles.img} />
           <p className={styles.subtitle}>Абонемент со скидкой</p>
-        </li>
+        </li> */}
         <li className={styles.listitem}>
           <img src={done} alt="" className={styles.img} />
           <p className={styles.subtitle}>Резюме после консультации</p>

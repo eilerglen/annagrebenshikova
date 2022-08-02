@@ -3,8 +3,18 @@ import { Article } from "../../components/article/article";
 import { data } from "../../utils/data";
 import styles from "./blog-page.module.css";
 import { Link } from "react-router-dom";
+import { useParams } from "react-router";
 
 export const BlogPage = () => {
+  const {id} = useParams()
+
+  const article = data.find((article) => {
+    if(article.id == id) {
+      return article
+    }
+  })
+  console.log(id)
+  console.log(article)
   return (
     <>
       <header className={styles.header}>
@@ -15,8 +25,7 @@ export const BlogPage = () => {
         </p>
       </header>
       <main className={styles.wrapper}>
-        <h1 className={styles.title}>Мой блог</h1>
-        <Article title={data.title} />
+        <Article title={article.title} text={article.text} />
       </main>
     </>
   );

@@ -1,4 +1,4 @@
-.costs {
+.blog {
   padding-top: 50px;
   padding-bottom: 50px;
   box-sizing: border-box;
@@ -6,16 +6,9 @@
 }
 
 .container {
-  max-width: 1280px;
-  width: 100%;
-  padding: 0;
-  margin: auto;
-  list-style: none;
-  display: grid;
-  justify-content: center;
-  grid-template-columns: repeat(auto-fit, 320px);
-  grid-column-gap: 25px;
-  grid-row-gap: 25px;
+  display: flex;
+  height: 500px;
+  max-height: calc(40vh- 150px);
 
 }
 
@@ -31,9 +24,11 @@
 
 }
 
-.description {
-  font-size: 16px;
-  font-weight: 700;
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
 }
 /* @media screen and (max-width: 768px) {
   .container {
@@ -41,3 +36,8 @@
   }
 
 } */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
